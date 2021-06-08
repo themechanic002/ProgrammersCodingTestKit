@@ -1,7 +1,3 @@
-fun main() {
-    Solution9().solution(intArrayOf(1, 2, 3, 4, 5))
-}
-
 class Solution9 {
     fun solution(answers: IntArray): MutableList<Int> {
         var answer = mutableListOf<Int>()
