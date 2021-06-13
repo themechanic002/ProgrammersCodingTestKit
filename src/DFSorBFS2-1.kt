@@ -1,19 +1,20 @@
 fun main() {
-    println(Solution18().solution(
+    println(Solution19().solution(
         arrayOf(
             arrayOf("ICN", "AAA"),
-            arrayOf("ICN", "BBB"),
-            arrayOf("BBB", "ICN")
+            arrayOf("AAA", "ICN"),
+            arrayOf("ICN", "AAA"),
+            arrayOf("AAA", "BBB")
         )
     ))
 }
 
-class Solution18 {
+class Solution19 {
     fun solution(tickets: Array<Array<String>>): ArrayList<String> {
         var answer = ArrayList<String>()
 
         //티켓 중복 제거
-        val ticketsSet = HashSet<ArrayList<String>>()
+        val ticketsSet = ArrayList<ArrayList<String>>()
         for (i in tickets)
             ticketsSet.add(arrayListOf(i[0], i[1]))
 
@@ -27,19 +28,18 @@ class Solution18 {
                 ticketsSet.filter { tic ->
                     value.substring(value.length - 3) == tic.get(0)
                 }.forEach { item ->
-                    if (!(value.contains((item.get(0) + item.get(1)))))
-                        child.add(value + item.get(1))
+                    child.add(value + item.get(1))
                 }
             }
             tree = child
         }
         //정렬해서 알파벳 순으로 하나만 결과로
-        tree.sort()
+        var answertree = tree.sorted().get(0)
 
         //통째로 되어있는 String을 쪼개서 answer에 넣기
-        for (i in 1..(tree[0].length / 3)) {
-            answer.add(tree[0].substring(0, 3))
-            tree[0] = tree[0].substring(3)
+        while(!(answertree.isBlank())) {
+            answer.add(answertree.substring(0, 3))
+            answertree = answertree.substring(3)
         }
         return answer
     }
