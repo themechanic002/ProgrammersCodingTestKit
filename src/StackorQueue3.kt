@@ -1,7 +1,7 @@
 import java.util.*
 
 fun main() {
-    println(Solution23().solution(100, 100, intArrayOf(10)))
+    println(Solution23().solution(2, 10, intArrayOf(7,4,5,6)))
 }
 
 class Solution23 {
