@@ -30,6 +30,6 @@ class Solution23 {
                 eachTime.add(0)
             }
         }
-        return time - 1
+        return time
     }
 }
