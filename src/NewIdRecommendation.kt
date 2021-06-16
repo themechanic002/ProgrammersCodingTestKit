@@ -1,5 +1,5 @@
 fun main() {
-    println(Solution34().solution("...!@BaT#*..y.abcdefghijklm"))
+    println(Solution34().solution("b......@"))
 }
 
 class Solution34 {
@@ -11,38 +11,60 @@ class Solution34 {
         var id = old_id
         id = old_id.lowercase()
         //id = id.replace("^[a-z0-9]|^-|^.|^_".toRegex(), "")
-        var tempId1 = id
+
         var tempArray = arrayListOf('~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '=', '+', '[', ']', '{', '}', ':', '?', ',', '<', '>', '/')
-        for (i in 0 until id.length) {
-            if(tempArray.contains(id[i]))
-                tempId1 = tempId1.removeRange(i, i + 1)
+
+        val tempArray2 = ArrayList<Char>()
+        id.forEach {
+            if (tempArray.contains(it))
+                tempArray2.add(it)
         }
-        id = tempId1
+        tempArray2.forEach {
+            id = id.replace(it.toString(), "")
+        }
+
+        if(id == "")
+            return "aaa"
+
 
         var count = 0
 
-        var tempId = id
-        for (i in 0 until id.length) {
-            if (id[i] == '.') {
-                count++
-                if (i + 1 <= id.lastIndex && id[i + 1] != '.') {
-                    tempId = tempId.removeRange(i - count + 2, i + 1)
-                    count = 0
+        var index = 0
+        while (index <= id.lastIndex) {
+            if (id[index] == '.') {
+                ++count
+                if (index + 1 <= id.lastIndex && id[index + 1] != '.') {
+                    if (count > 1) {
+                        id = id.removeRange(index - count + 2, index + 1)
+                        count = 0
+                        index = -1
+                    }
+                }
+                else if(index == id.lastIndex && count > 1) {
+                    id = id.dropLast(count - 1)
+                    break
                 }
             }
+            else
+                count = 0
+            index++
         }
-        id = tempId
 
-        if (id.first() == '.')
+
+        if (id.first() == '.') //4단계
             id = id.removeRange(0, 1)
-        if (id.isBlank())
-            id = "a"
-        if (id.length > 15)
-            id = id.substring(0, 15)
-        if (id.last() == '.')
+        if(id == "")
+            return "aaa"
+        if (id.last() == '.') //4단계
             id = id.substring(0, id.lastIndex)
-        if (id.length <= 2)
-            while (id.length >= 3)
+        if (id.isBlank()) //5단계
+            id = "a"
+        if (id.length > 15) //6단계
+            id = id.substring(0, 15)
+        if (id.last() == '.') //6단계
+            id = id.substring(0, id.lastIndex)
+        if (id.length <= 2) //7단계
+            while (id.length <= 2)
                 id += id.last()
 
         return id
