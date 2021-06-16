@@ -27,14 +27,12 @@ class Solution33 {
                     break
                 }
             }
-
             if (basket.size > 1 && basket[basket.lastIndex] == basket[basket.lastIndex - 1]) {
                 basket.removeAt(basket.lastIndex)
                 basket.removeAt(basket.lastIndex)
                 disappeared += 2
             }
         }
-
         return disappeared
     }
 }
