@@ -19,7 +19,6 @@ class Solution34 {
         }
         id = tempId1
 
-        println(id)
         var count = 0
 
         var tempId = id
