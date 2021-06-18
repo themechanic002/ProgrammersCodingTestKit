@@ -1,25 +1,42 @@
+import java.util.*
+
 fun main() {
     println(Solution38().solution(intArrayOf(1, 2, 3, 9, 10, 12), 7))
 }
 
 class Solution38 {
     fun solution(scoville: IntArray, K: Int): Int {
-        val newScoville = ArrayList<Int>()
-        for (i in 0 until scoville.size)
-            newScoville.add(scoville[i])
-        newScoville.sort()
-
         var count = 0
-        while (newScoville[0] < K) {
-            if (newScoville.filter { it == 0 }.size > 1)
-                return -1
-            else if (newScoville.size <= 1)
+
+        val heapScoville = PriorityQueue<Int>()
+        val heapScovilleOverK = PriorityQueue<Int>()
+        scoville.forEach { if (it < K) heapScoville.add(it) else heapScovilleOverK.add(it) }
+
+        while (heapScoville.peek() < K) {
+            if (heapScoville.size == 1)
+                if (heapScovilleOverK.size == 0)
+                    return -1
+                else
+                    return count + 1
+            else if (heapScoville.size == 0)
                 return count
-            count++
-            newScoville.add(newScoville[0] + (newScoville[1] * 2))
-            newScoville.removeAt(1)
-            newScoville.removeAt(0)
-            newScoville.sort()
+
+            val first = heapScoville.poll()
+            val second = heapScoville.poll()
+
+            if (first + second == 0)
+                return -1
+            else {
+                count += 1
+                val new = first + (second * 2)
+                if (new < K)
+                    heapScoville.add(new)
+                else {
+                    heapScovilleOverK.add(new)
+                    if (heapScoville.size == 0)
+                        return count
+                }
+            }
         }
         return count
     }
