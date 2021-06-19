@@ -7,7 +7,7 @@ class Solution45 {
         else {
             for (i in 0 until (n + 1) / 2)
                 answer += "수박"
-            answer.substring(0, n)
+            answer = answer.substring(0, n)
         }
         return answer
     }
