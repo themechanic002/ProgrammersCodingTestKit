@@ -3,14 +3,14 @@ class Solution42 {
         var answer: Long = 0
         val small: Int
         val big: Int
-        if(a>b){
+        if (a > b) {
             small = b
             big = a
-        }else{
+        } else {
             small = a
             big = b
         }
-        for(i in small .. big)
+        for (i in small..big)
             answer += i
         return answer
     }
