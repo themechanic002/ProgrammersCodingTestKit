@@ -2,13 +2,21 @@ class Solution46 {
     fun solution(s: String, n: Int): String {
         var answer = ""
         s.forEach {
-            when (it) {
-                ' ' -> answer += ' '
-                'z' -> answer += ('a'.code + n - 1).toChar()
-                'Z' -> answer += ('A'.code + n - 1).toChar()
-                else -> answer += (it.code + n).toChar()
-            }
+            answer += translator(it, n)
         }
         return answer
+    }
+
+    fun translator(c: Char, n: Int): Char {
+        var newC = c
+        for (i in 0 until n) {
+            when (newC) {
+                ' ' -> return ' '
+                'z' -> newC = 'a'
+                'Z' -> newC = 'A'
+                else -> newC = (newC.code + 1).toChar()
+            }
+        }
+        return newC
     }
 }
