@@ -6,7 +6,6 @@ class Solution47 {
             tupleSet.add(i.split(","))
 
         var answer = ArrayList<Int>()
-
         tupleSet.toList().sortedBy { it.size }.forEach { bigRange ->
             for (i in 0 until bigRange.size)
                 if (!answer.contains(bigRange[i].toInt()))
