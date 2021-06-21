@@ -5,9 +5,7 @@ fun main() {
 }
 
 class Solution52 {
-    fun solution(p: String): String {
-        return convert(p)
-    }
+    fun solution(p: String): String = convert(p)
 
     fun convert(p: String): String {
         if (p.isBlank()) return ""
