@@ -1,5 +1,6 @@
 class Solution48 {
     fun solution(rows: Int, columns: Int, queries: Array<IntArray>): IntArray {
+        var answer = intArrayOf()
         var matrix = ArrayList<ArrayList<Int>>()
         var index = 0
         for (i in 0 until rows) {
