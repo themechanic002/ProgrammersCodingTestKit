@@ -3,8 +3,14 @@ import kotlin.collections.ArrayList
 
 class Solution53 {
     fun solution(s: String): Int {
-        var answer: Int = -1
-        return answer
+        var count = 0
+        var s2 = s
+        for(i in 0 until s.length){
+            if(isRight(s2))
+                count ++
+            s2 = s2.substring(1) + s2[0].toString()
+        }
+        return count
     }
 
     fun isRight(s: String): Boolean {
