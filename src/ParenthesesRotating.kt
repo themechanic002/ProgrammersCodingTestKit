@@ -13,35 +13,33 @@ class Solution53 {
     }
 
     fun isRight(s: String): Boolean {
-        val stack1 = Stack<Char>()
-        val stack2 = Stack<Char>()
-        val stack3 = Stack<Char>()
+        val stack = Stack<Char>()
 
         for (i in s) {
             when (i) {
-                '(' -> stack1.push('(')
-                '{' -> stack2.push('{')
-                '[' -> stack3.push('[')
+                '(' -> stack.push('(')
+                '{' -> stack.push('{')
+                '[' -> stack.push('[')
                 ')' -> {
-                    if (stack1.isEmpty())
+                    if (stack.isEmpty() || stack.lastElement() != '(')
                         return false
                     else
-                        stack1.pop()
+                        stack.pop()
                 }
                 '}' -> {
-                    if (stack2.isEmpty())
+                    if (stack.isEmpty() || stack.lastElement() != '{')
                         return false
                     else
-                        stack2.pop()
+                        stack.pop()
                 }
                 ']' -> {
-                    if (stack3.isEmpty())
+                    if (stack.isEmpty() || stack.lastElement() != '[')
                         return false
                     else
-                        stack3.pop()
+                        stack.pop()
                 }
             }
         }
-        return stack1.isEmpty() && stack2.isEmpty() && stack3.isEmpty()
+        return stack.isEmpty()
     }
 }
