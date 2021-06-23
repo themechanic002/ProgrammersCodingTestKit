@@ -23,7 +23,6 @@ class Solution48 {
             println(matrix)
         }
         return answer
-
     }
 
     fun rotate(matrix: ArrayList<ArrayList<Int>>, y1: Int, x1: Int, y2: Int, x2: Int): ArrayList<ArrayList<Int>> {
@@ -31,9 +30,8 @@ class Solution48 {
         val newMatrix = ArrayList<ArrayList<Int>>()
         for (i in 0 until matrix.size) {
             newMatrix.add(arrayListOf())
-            for (j in 0 until matrix.get(i).size) {
+            for (j in 0 until matrix.get(i).size)
                 newMatrix[i].add((j + 1) + (matrix.get(i).size * i))
-            }
         }
 
         val mins = ArrayList<Int>()
