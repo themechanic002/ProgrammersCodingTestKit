@@ -1,12 +1,13 @@
 fun main() {
     println(
         Solution48().solution(
-            6,
-            6,
-            arrayOf(intArrayOf(2, 2, 5, 4), intArrayOf(3, 3, 6, 6), intArrayOf(5, 1, 6, 3))
+            3,
+            3,
+            arrayOf(intArrayOf(1, 1, 2, 2), intArrayOf(1, 2, 2, 3), intArrayOf(2, 1, 3, 2), intArrayOf(2, 2, 3, 3))
         )
     )
 }
+
 class Solution48 {
     var answer = ArrayList<Int>()
     fun solution(rows: Int, columns: Int, queries: Array<IntArray>): ArrayList<Int> {
