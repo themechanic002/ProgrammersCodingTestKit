@@ -2,7 +2,6 @@ class Solution59 {
     fun solution(n: Int): Int = (fibonacci(n.toLong()) % 1234567L).toInt()
 
     fun fibonacci(n: Long): Long {
-
         var first = 0L
         var second = 1L
         return when (n) {
