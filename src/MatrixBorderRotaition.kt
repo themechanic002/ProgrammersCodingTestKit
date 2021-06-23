@@ -28,20 +28,20 @@ class Solution48 {
         val mins = ArrayList<Int>()
 
         for (i in 0 until x2 - x1) {
-            //newMatrix[y1].set(x1 + i + 1, matrix[y1][x1 + i])
-            newMatrix[y1][x1 + i + 1] = matrix[y1][x1 + i]
+            newMatrix[y1].set(x1 + i + 1, matrix[y1][x1 + i])
+            //newMatrix[y1][x1 + i + 1] = matrix[y1][x1 + i]
         }
         for (i in 0 until y2 - y1) {
-            //newMatrix[y1 + i + 1].set(x2, matrix[y1 + i][x2])
-            newMatrix[y1 + i + 1][x2] = matrix[y1 + i][x2]
+            newMatrix[y1 + i + 1].set(x2, matrix[y1 + i][x2])
+            //newMatrix[y1 + i + 1][x2] = matrix[y1 + i][x2]
         }
         for (i in 0 until x2 - x1) {
-            //newMatrix[y2].set(x2 - i - 1, matrix[y2][x2 - i])
-            newMatrix[y2][x2 - i - 1] = matrix[y2][x2 - i]
+            newMatrix[y2].set(x2 - i - 1, matrix[y2][x2 - i])
+            //newMatrix[y2][x2 - i - 1] = matrix[y2][x2 - i]
         }
         for (i in 0 until y2 - y1) {
-            //newMatrix[y2 - i - 1].set(x1, matrix[y2 - i][x1])
-            newMatrix[y2 - i - 1][x1] = matrix[y2 - i][x1]
+            newMatrix[y2 - i - 1].set(x1, matrix[y2 - i][x1])
+            //newMatrix[y2 - i - 1][x1] = matrix[y2 - i][x1]
         }
 
 
