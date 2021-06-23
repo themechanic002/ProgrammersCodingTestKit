@@ -1,7 +1,6 @@
 class Solution59 {
-    fun solution(n: Int): Int {
-        var answer = 0
-        return answer
+    fun solution(n: Int): Int{
+        return (fibonacci(n.toLong()) % 1234567L).toInt()
     }
 
     fun fibonacci(n: Long): Long {
@@ -21,6 +20,5 @@ class Solution59 {
                 temp
             }
         }
-
     }
 }
