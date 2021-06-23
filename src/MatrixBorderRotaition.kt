@@ -19,6 +19,7 @@ class Solution48 {
 
         for (i in queries) {
             matrix = rotate(matrix, i[0] - 1, i[1] - 1, i[2] - 1, i[3] - 1)
+            println(matrix)
         }
         return answer
 
