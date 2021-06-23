@@ -1,7 +1,5 @@
 class Solution59 {
-    fun solution(n: Int): Int{
-        return (fibonacci(n.toLong()) % 1234567L).toInt()
-    }
+    fun solution(n: Int): Int = (fibonacci(n.toLong()) % 1234567L).toInt()
 
     fun fibonacci(n: Long): Long {
 
