@@ -1,0 +1,54 @@
+Index: src/Hotter.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Hotter.kt b/src/Hotter.kt
+new file mode 100644
+--- /dev/null	(date 1624010257276)
++++ b/src/Hotter.kt	(date 1624010257276)
+@@ -0,0 +1,26 @@
++fun main() {
++    println(Solution38().solution(intArrayOf(1, 2, 3, 9, 10, 12), 7))
++}
++
++class Solution38 {
++    fun solution(scoville: IntArray, K: Int): Int {
++        val newScoville = ArrayList<Int>()
++        for (i in 0 until scoville.size)
++            newScoville.add(scoville[i])
++        newScoville.sort()
++
++        var count = 0
++        while (newScoville[0] < K) {
++            if (newScoville.filter { it == 0 }.size > 1)
++                return -1
++            else if (newScoville.size <= 1)
++                return count
++            count++
++            newScoville.add(newScoville[0] + (newScoville[1] * 2))
++            newScoville.removeAt(1)
++            newScoville.removeAt(0)
++            newScoville.sort()
++        }
++        return count
++    }
++}
+\ No newline at end of file
+Index: src/Study3.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Study3.kt b/src/Study3.kt
+new file mode 100644
+--- /dev/null	(date 1623931552486)
++++ b/src/Study3.kt	(date 1623931552486)
+@@ -0,0 +1,4 @@
++fun main() {
++    var answer = arrayListOf(1, 2, 2, 5, 3, 4, 3)
++    println(answer.sorted().distinct())
++}
+\ No newline at end of file
+diff --git a/src/Hotter.java b/src/Hotter.java
+new file mode 100644

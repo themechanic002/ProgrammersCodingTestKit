@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bc22885-fd11-470c-98c3-519eb37ec317" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/src/BringMiddleLetter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/BringMiddleLetter.kt" afterDir="false" />
+    </list>
+    <list id="0959b7ec-7300-4777-92d8-11c5ded62132" name="Revert &quot;commit&quot;" comment="Revert &quot;commit&quot;&#10;&#10;This reverts commit fe6a52ce" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="55a7a130-fcdd-4dca-8f3f-00e9f7e9610e" />
+        <option name="url" value="https://github.com/themechanic002/ProgrammersCodingTestKit.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tFXPbvKuIiX5YWj5iNGzxOuqQE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloKotlin2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Kotlin.Study4Kt">
+    <configuration name="ConvertParenthesesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConvertParenthesesKt" />
+      <module name="ProgrammersCodingTestKit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HotterKt" />
+      <module name="ProgrammersCodingTestKit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixBorderRotaitionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixBorderRotaitionKt" />
+      <module name="ProgrammersCodingTestKit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Study3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Study3Kt" />
+      <module name="ProgrammersCodingTestKit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Study4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Study4Kt" />
+      <module name="ProgrammersCodingTestKit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Study4Kt" />
+        <item itemvalue="Kotlin.MatrixBorderRotaitionKt" />
+        <item itemvalue="Kotlin.ConvertParenthesesKt" />
+        <item itemvalue="Kotlin.Study3Kt" />
+        <item itemvalue="Kotlin.HotterKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bc22885-fd11-470c-98c3-519eb37ec317" name="Default Changelist" comment="" />
+      <created>1622365791775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622365791775</updated>
+    </task>
+    <task id="LOCAL-00035" summary="commit">
+      <created>1624019059204</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1624019059204</updated>
+    </task>
+    <task id="LOCAL-00036" summary="commit">
+      <created>1624020357946</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1624020357946</updated>
+    </task>
+    <task id="LOCAL-00037" summary="commit">
+      <created>1624021015447</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1624021015447</updated>
+    </task>
+    <task id="LOCAL-00038" summary="commit">
+      <created>1624113130822</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1624113130822</updated>
+    </task>
+    <task id="LOCAL-00039" summary="commit">
+      <created>1624113426671</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1624113426671</updated>
+    </task>
+    <task id="LOCAL-00040" summary="commit">
+      <created>1624113525299</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1624113525299</updated>
+    </task>
+    <task id="LOCAL-00041" summary="commit">
+      <created>1624114213519</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1624114213519</updated>
+    </task>
+    <task id="LOCAL-00042" summary="commit">
+      <created>1624114331931</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1624114331931</updated>
+    </task>
+    <task id="LOCAL-00043" summary="commit">
+      <created>1624114924342</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1624114924342</updated>
+    </task>
+    <task id="LOCAL-00044" summary="commit">
+      <created>1624115016303</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1624115016303</updated>
+    </task>
+    <task id="LOCAL-00045" summary="commit">
+      <created>1624115810867</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1624115810867</updated>
+    </task>
+    <task id="LOCAL-00046" summary="commit">
+      <created>1624196557163</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1624196557163</updated>
+    </task>
+    <task id="LOCAL-00047" summary="commit">
+      <created>1624196575465</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1624196575465</updated>
+    </task>
+    <task id="LOCAL-00048" summary="not completed">
+      <created>1624196626099</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1624196626099</updated>
+    </task>
+    <task id="LOCAL-00049" summary="not completed">
+      <created>1624197818073</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1624197818073</updated>
+    </task>
+    <task id="LOCAL-00050" summary="not completed">
+      <created>1624198254273</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1624198254274</updated>
+    </task>
+    <task id="LOCAL-00051" summary="commit">
+      <created>1624198313349</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1624198313349</updated>
+    </task>
+    <task id="LOCAL-00052" summary="commit">
+      <created>1624262853427</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1624262853427</updated>
+    </task>
+    <task id="LOCAL-00053" summary="commit">
+      <created>1624263185944</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1624263185945</updated>
+    </task>
+    <task id="LOCAL-00054" summary="commit">
+      <created>1624263206587</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1624263206587</updated>
+    </task>
+    <task id="LOCAL-00055" summary="commit">
+      <created>1624263423380</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1624263423380</updated>
+    </task>
+    <task id="LOCAL-00056" summary="commit">
+      <created>1624268706036</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1624268706036</updated>
+    </task>
+    <task id="LOCAL-00057" summary="commit">
+      <created>1624268764390</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1624268764390</updated>
+    </task>
+    <task id="LOCAL-00058" summary="commit">
+      <created>1624362779727</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1624362779728</updated>
+    </task>
+    <task id="LOCAL-00059" summary="commit">
+      <created>1624363320717</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1624363320717</updated>
+    </task>
+    <task id="LOCAL-00060" summary="commit">
+      <created>1624363673021</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1624363673021</updated>
+    </task>
+    <task id="LOCAL-00061" summary="commit">
+      <created>1624363683168</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1624363683168</updated>
+    </task>
+    <task id="LOCAL-00062" summary="commit">
+      <created>1624363972293</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1624363972293</updated>
+    </task>
+    <task id="LOCAL-00063" summary="commit">
+      <created>1624421203779</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421203780</updated>
+    </task>
+    <task id="LOCAL-00064" summary="commit">
+      <created>1624421229290</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421229290</updated>
+    </task>
+    <task id="LOCAL-00065" summary="commit">
+      <created>1624421257671</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421257671</updated>
+    </task>
+    <task id="LOCAL-00066" summary="commit">
+      <created>1624421284063</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421284063</updated>
+    </task>
+    <task id="LOCAL-00067" summary="commit">
+      <created>1624421332982</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421332982</updated>
+    </task>
+    <task id="LOCAL-00068" summary="commit">
+      <created>1624421371905</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421371905</updated>
+    </task>
+    <task id="LOCAL-00069" summary="commit">
+      <created>1624421414774</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1624421414774</updated>
+    </task>
+    <task id="LOCAL-00070" summary="commit">
+      <created>1624422210443</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1624422210443</updated>
+    </task>
+    <task id="LOCAL-00071" summary="commit">
+      <created>1624429713081</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1624429713081</updated>
+    </task>
+    <task id="LOCAL-00072" summary="commit">
+      <created>1624429723634</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1624429723634</updated>
+    </task>
+    <task id="LOCAL-00073" summary="commit">
+      <created>1624452989485</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1624452989485</updated>
+    </task>
+    <task id="LOCAL-00074" summary="commit">
+      <created>1624453650399</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1624453650399</updated>
+    </task>
+    <task id="LOCAL-00075" summary="commit">
+      <created>1624453849399</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1624453849399</updated>
+    </task>
+    <task id="LOCAL-00076" summary="commit">
+      <created>1624454637108</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1624454637108</updated>
+    </task>
+    <task id="LOCAL-00077" summary="commit">
+      <created>1624454734597</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1624454734597</updated>
+    </task>
+    <task id="LOCAL-00078" summary="commit">
+      <created>1624454754952</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1624454754952</updated>
+    </task>
+    <task id="LOCAL-00079" summary="commit">
+      <created>1624454773064</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1624454773064</updated>
+    </task>
+    <task id="LOCAL-00080" summary="commit">
+      <created>1624454927385</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1624454927385</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Modular Arithmetic">
+      <created>1624455560398</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1624455560398</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Modular Arithmetic">
+      <created>1624504238853</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1624504238854</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Modular Arithmetic">
+      <created>1624505747639</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1624505747639</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="e267c64e-bb88-4c6a-9a30-7f48c1614d61">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e267c64e-bb88-4c6a-9a30-7f48c1614d61" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="not completed" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="Modular Arithmetic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modular Arithmetic" />
+  </component>
+</project>
