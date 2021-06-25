@@ -1,17 +1,16 @@
 class Solution59 {
-    fun solution(n: Int): Int = (fibonacci(n.toLong()) % 1234567L).toInt()
+    fun solution(n: Int): Int = fibonacci(n) % 1234567
 
-    fun fibonacci(n: Long): Long {
-
-        var first = 0L
-        var second = 1L
+    fun fibonacci(n: Int): Int {
+        var first = 0
+        var second = 1
         return when (n) {
-            1L -> first
-            2L -> second
+            0 -> first
+            1 -> second
             else -> {
-                var temp = first + second
-                for (i in 3..n) {
-                    temp = first + second
+                var temp = (first + second) % 1234567
+                for (i in 2..n) {
+                    temp = (first + second) % 1234567
                     first = second
                     second = temp
                 }
