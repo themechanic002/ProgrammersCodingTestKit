@@ -7,6 +7,10 @@ class Solution62 {
             if(it != smallest)
                 answer.add(it)
         }
-        return answer.toIntArray()
+        if(arr2.isEmpty())
+            return intArrayOf(-1)
+        else{
+            return answer.toIntArray()
+        }
     }
 }
