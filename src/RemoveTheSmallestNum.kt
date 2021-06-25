@@ -9,8 +9,7 @@ class Solution62 {
         }
         if(arr2.isEmpty())
             return intArrayOf(-1)
-        else{
+        else
             return answer.toIntArray()
-        }
     }
 }
