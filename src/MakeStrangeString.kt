@@ -7,10 +7,10 @@ class Solution64 {
                 answer += " "
                 index = 0
             } else if (index % 2 == 0) {
-                answer += i.toString().toUpperCase()
+                answer += i.toString().uppercase()
                 index++
             } else if (index % 2 == 1) {
-                answer += i.toString().toLowerCase()
+                answer += i.toString().lowercase()
                 index++
             }
         }
