@@ -1,3 +1,3 @@
 class Solution65 {
-    fun solution(n: Long): List<Int> = n.toString().reversed().map{ it.toInt() - '0'.toInt() }.toList()
+    fun solution(n: Long): IntArray = n.toString().reversed().map { it.code - '0'.code }.toIntArray()
 }
