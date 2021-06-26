@@ -1,6 +1,3 @@
 class Solution63 {
-    fun solution(arr: IntArray): Double {
-        var answer = 0
-        return answer
-    }
+    fun solution(arr: IntArray): Double = arr.sum().toDouble() / arr.size
 }
