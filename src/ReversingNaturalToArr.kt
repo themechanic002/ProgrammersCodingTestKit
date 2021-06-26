@@ -1,6 +1,3 @@
 class Solution65 {
-    fun solution(n: Long): IntArray {
-        var answer = intArrayOf()
-        return answer
-    }
+    fun solution(n: Long): List<Char> = n.toString().reversed().toList()
 }
