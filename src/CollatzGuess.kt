@@ -1,7 +1,3 @@
-fun main() {
-    Solution71().solution(626331)
-}
-
 class Solution71 {
     fun solution(num: Int): Int {
         var n = num.toLong()
