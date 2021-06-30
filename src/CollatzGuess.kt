@@ -5,6 +5,8 @@ class Solution71 {
         while(n != 1){
             n = collatz(n)
             count++
+            if(count == 500)
+                return -1
         }
         return count
     }
