@@ -1,14 +1,19 @@
+fun main() {
+    Solution71().solution(626331)
+}
+
 class Solution71 {
     fun solution(num: Int): Int {
-        var n = num
+        var n = num.toLong()
         var count = 0
-        while (n != 1) {
-            if (count == 500)
+        while (n != 1L) {
+            if (count >= 500)
                 return -1
             n = collatz(n)
             count++
         }
         return count
     }
-    fun collatz(num: Int): Int = if (num % 2 == 0) num / 2 else num * 3 + 1
+
+    fun collatz(num: Long): Long = if (num % 2L == 0L) num / 2L else (num * 3L) + 1L
 }
