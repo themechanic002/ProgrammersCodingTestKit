@@ -4,10 +4,10 @@ class Solution72 {
         var index = sortedArr.first()
         while (true){
             if(sortedArr.all { it % index == 0 }){
-
+                return index
             }
+            else
+                index += index
         }
-
-        return index
     }
 }
