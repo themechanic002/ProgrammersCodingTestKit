@@ -1,7 +1,8 @@
 class Solution73 {
     fun solution(s: String): String {
         var answer = ""
-        s.forEach {
+        val str = s.replace("\\s+".toRegex(), " ")
+        str.forEach {
             if(it == ' ')
                 answer += " "
             else if(it == s.first())
