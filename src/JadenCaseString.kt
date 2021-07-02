@@ -7,7 +7,7 @@ class Solution73 {
                 answer += " "
             else if(it == s.first())
                 answer += it.uppercase()
-            else if(s[s.indexOf(it) - 1] == ' ')
+            else if(answer.last() == ' ')
                 answer += it.uppercase()
             else
                 answer += it.lowercase()
