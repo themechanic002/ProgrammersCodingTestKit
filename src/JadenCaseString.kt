@@ -5,7 +5,8 @@ class Solution73 {
         arr.forEach {
             answer += it[0].uppercase()
             answer += it.substring(1).lowercase()
-            answer += " "
+            if(arr.indexOf(it) != arr.lastIndex)
+                answer += " "
         }
         return answer
     }
