@@ -5,7 +5,12 @@ class Solution75 {
         var answer = intArrayOf()
         return answer
     }
-    
+
+    fun lcm( a:Int, b:Int):Int {
+        var maximum = max(a, b)
+        var minimum = min(a, b)
+        return (a * b) / gcd(a, b)
+    }
 
     fun gcd(a: Int, b: Int): Int {
         var maximum = max(a, b)
