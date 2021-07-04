@@ -2,8 +2,7 @@ import java.lang.Math.*
 
 class Solution75 {
     fun solution(n: Int, m: Int): IntArray {
-        var answer = intArrayOf()
-        return answer
+        return intArrayOf(gcd(n, m), lcm(n, m))
     }
 
     fun lcm(a: Int, b: Int): Int {
