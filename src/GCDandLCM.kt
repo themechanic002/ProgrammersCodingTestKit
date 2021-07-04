@@ -6,7 +6,7 @@ class Solution75 {
         return answer
     }
 
-    fun lcm( a:Int, b:Int):Int {
+    fun lcm(a: Int, b: Int): Int {
         var maximum = max(a, b)
         var minimum = min(a, b)
         return (a * b) / gcd(a, b)
