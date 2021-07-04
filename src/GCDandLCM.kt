@@ -1,9 +1,7 @@
 import java.lang.Math.*
 
 class Solution75 {
-    fun solution(n: Int, m: Int): IntArray {
-        return intArrayOf(gcd(n, m), lcm(n, m))
-    }
+    fun solution(n: Int, m: Int): IntArray = intArrayOf(gcd(n, m), lcm(n, m))
 
     fun lcm(a: Int, b: Int): Int {
         var maximum = max(a, b)
